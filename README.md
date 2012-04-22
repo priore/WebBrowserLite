@@ -7,7 +7,9 @@ example:
 import "WebBrowserLite.h"
 
 NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/pages/Prioregroupcom/161635751419"];
+
 WebBrowserLite *webBrowser = [[WebBrowserLite alloc] initWithURL:url];
+
 [webBrowser show];
 
 Danilo Priore
