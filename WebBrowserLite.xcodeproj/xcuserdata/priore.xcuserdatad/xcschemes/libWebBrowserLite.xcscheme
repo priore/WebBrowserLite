@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "134668D2155700CA00F299F9"
-               BuildableName = "libWebBrowserLite"
+               BlueprintIdentifier = "13CE61D315572A1E000ED11C"
+               BuildableName = "libWebBrowserLite.framework"
                BlueprintName = "libWebBrowserLite"
-               ReferencedContainer = "container:libWebBrowserLite.xcodeproj">
+               ReferencedContainer = "container:WebBrowserLite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
