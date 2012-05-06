@@ -25,6 +25,8 @@
 //  THE SOFTWARE.
 //
 //
+#ifndef WEBBROWSERLITE_CLASS
+#define WEBBROWSERLITE_CLASS
 
 #define BUTTON_MARGIN   5.0f
 #define BUTTON_SIZE     CGSizeMake(30, 30)
@@ -337,3 +339,5 @@
 }
 
 @end
+
+#endif
