@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="WebBrowser UI Lite : a nice Web Browser with basic UI not invasive functions" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>WebBrowser UI Lite</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/priore/WebBrowserLite">View on GitHub</a>
+
+          <h1 id="project_title">WebBrowser UI Lite</h1>
+          <h2 id="project_tagline">a nice Web Browser with basic UI not invasive functions</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/priore/WebBrowserLite/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/priore/WebBrowserLite/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><strong>WebBrowserLite 2012</strong></p>
+
+<p>a nice Web Browser with basic UI not invasive functions</p>
+
+<p>example:</p>
+
+<pre><code>#import "WebBrowserLite.h"
+
+...
+
+WebBrowserLite *webBrowser;
+
+...
+
+NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/pages/Prioregroupcom/161635751419"];
+webBrowser = [[WebBrowserLite alloc] initWithURL:url];
+[webBrowser show]; 
+
+...
+
+[webBrowser release];
+</code></pre>
+
+<p>sample screen-shot :</p>
+
+<p><img src="http://www.prioregroup.com/images/github/webbrowserlite/twoscreen.png" alt="Screenshot"></p>
+
+<p><a href="http://www.prioregroup.com">Prioregroup.com Home Page</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">WebBrowser UI Lite maintained by <a href="https://github.com/priore">priore</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
